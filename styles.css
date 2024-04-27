@@ -81,7 +81,8 @@ a {
 }
 
 .logo {
-  max-width: 120px;
+  max-width: 60px;
+  max-height: auto;
 }
 
 html,
@@ -253,6 +254,21 @@ nav {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Padding inside each card */
+}
+
+.room__card h3 {
+  font-size: 1.2em; /* Sets the font size */
+  color: #333; /* Sets the text color */
+  margin-bottom: 10px; /* Space below the heading */
+  padding: 0 10px; /* Padding on the left and right */
+  margin-top: 10px
+}
+
+.room__card p {
+  font-size: 0.95em; /* Sets the font size */
+  color: #666; /* Sets the text color */
+  padding: 0 10px; /* Padding on the left and right */
 }
 
 .room__card__image {
